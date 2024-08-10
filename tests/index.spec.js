@@ -10,8 +10,8 @@ test('can run lottie svg renderer without specifying animation data in node', (t
     const animation = lottie.loadAnimation({
         container,
         renderer: 'svg',
-        loop: true,
-        autoplay: true,
+        loop: false,
+        autoplay: false,
     });
     animation.goToAndStop(0, true);
 
