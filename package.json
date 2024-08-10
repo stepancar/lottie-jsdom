@@ -1,19 +1,24 @@
 {
   "name": "lottie-jsdom",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Allows you execute your lottie animations in jsdom",
-  "author": "stepancar <",
+  "author": "Stepan Mikhailiuk <https://github.com/stepancar>",
   "main": "./index.js",
   "types": "./index.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/stepancar/lottie-jsdom.git"
   },
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
   "keywords": [
     "lottie",
     "ssr",
     "jsdom",
-    "server"
+    "server",
+    "animations"
   ],
   "scripts": {
     "test": "node --test './tests/index.spec.js'"
